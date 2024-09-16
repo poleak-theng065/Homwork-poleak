@@ -1,0 +1,419 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    width: 100%;
+}
+/* Nav Bar */
+nav{
+    height: 10vh;
+    background: rgba(128, 128, 128, 0.281);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-tool{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.nav-tool a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+}
+.nav-tool button{
+    height: 7vh;
+    width: 10vw;
+    font-size: 18px;
+    background: black;
+    color: white;
+    border: none;
+}
+/* Header Banner */
+header{
+    height: 80vh;
+    background: black;
+    color: white;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Header Left */
+header .left{
+    height: 70%;
+    width: 50%;
+    padding: 10rem;
+}
+header .left h1{
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+header .left ul{
+    margin-top: 20px;
+}
+header .left ul li{
+    list-style: none;
+    margin-left: 3rem;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 24px;
+
+}
+header .left ul li i{
+    color: rgb(48, 1, 142);
+    font-size: 24px;
+}
+/* Header right */
+header .right{
+    height: 80%;
+    width: 50%;
+    background: white;
+    border-radius: 45px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header .right form{
+    height: 90%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+header .right form .input-box{
+    display: flex;
+    height: 20vh;
+}
+header .right form .input-box div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+.input-box div label{
+    padding: 15px;
+}
+.input-box div input{
+    padding: 10px;
+    width: 100%;
+    height: 8vh;
+    border-radius: 45px;
+    border: 2px black solid;
+}
+header .right form button{
+    height: 9vh;
+    background: red;
+    color: white;
+    font-size: 24px;
+    border-radius: 45px;
+    border: 2px solid red;
+}
+header .right form button:hover{
+    background: black;
+    border: none;
+}
+/* Main */
+main{
+    
+}
+/* Section 1 */
+.main-section1{
+    height: 100vh;
+    padding-top: 100px;
+}
+.main-section1 .topic{
+    display: flex;
+}
+.main-section1 h1{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+.main-section1 .topic article{
+    width: 15ch;
+    padding: 0 100px;
+    margin: 0 auto;
+    font-size: 32px;
+    text-align: initial;
+    color: rgb(166, 164, 164);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main-section1 .topic article:nth-child(2){
+    border-left: 2px solid rgb(166, 164, 164);
+    border-right: 2px solid rgb(166, 164, 164);
+}
+article .sponsor{
+    color: rgb(101, 101, 101);
+    font-weight: bold;
+}
+article .credit img{
+    width: 150px;
+}
+/* Section 2 */
+main .main-section2{
+    margin: 100px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+main .main-section2 .box{
+    width: 20rem;
+    height: 80%;
+    padding: 20px 0;
+    font-size: 18;
+    color: rgb(166, 164, 164)
+}
+main .main-section2 .box h2{
+    margin: 10px 0;
+    font-size: 24px;
+    color: rgb(101, 101, 101);
+}
+main .main-section2 img{
+    width: 75px;
+    border-radius: 25px;
+}
+/* Section 3 */
+main .main-section3{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+}
+main .main-section3 .text{
+    width: 50%;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+.text h1{
+    margin-bottom: 20px;
+    font-size: 56px;
+}
+.text p{
+    font-size: 24px;
+    color: rgb(101, 101, 101);
+}
+.butoon{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+.butoon button{
+    width: 200px;
+    height: 75px;
+    font-size: 24px;
+    border: none;
+}
+.butoon .get{
+    background: rgb(240, 70, 70);
+    color: white;
+}
+.butoon .talk{
+    border-radius: 45px;
+    background: none;
+    border: 2px black solid;
+}
+.butoon .talk:hover{
+    background: black;
+    color: white;
+}
+main .main-section3 img{
+    width: 40%;
+}
+/* Section 4 */
+main .main-section4{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inner-container{
+    height: 25vh;
+    text-align: center;
+}
+.inner-container p:nth-child(1){
+    color: rgb(217, 68, 68);
+    font-size: 24px;
+}
+.inner-container h1{
+    font-size: 42;
+}
+.step{
+    padding: 0 100px;
+    display: flex;
+}
+.step div{
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+.step .cercal{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: rgba(253, 168, 168, 0.272);
+    font-size: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-weight: bolder;
+    margin-bottom: 100px;
+}
+.step div h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+/* Section 5 */
+.main-section5{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-section5 .tile{
+    height: 20vh;
+    margin: 0 auto;
+    text-align: center;
+}
+.main-section5 .tile h1{
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+.main-section5 .service-card{
+    margin: 0 10%;
+    height: 60vh;
+    width: 75vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    gap: 20px;
+}
+.main-section5 .service-card .card{
+    height: 15vh;
+    width:25vw;
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+    border-radius: 25px;
+    font-size: 18px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.main-section5 .service-card .card img{
+    height: 75px;
+    border-radius: 25%;
+}
+.service-card .card h2{
+    margin-bottom: 10px;
+}
+/* balck part */
+.addition{
+    height: 100vh;
+    background: black;
+}
+.addition .card{
+    height: 100%;
+    width: 80%;
+    margin: 0 10%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.addition .card .card-info{
+    width: 35vw;
+    height: 20vh;
+    border: 2px solid white;
+    padding: 20px 20px;
+    background: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.card .card-info .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.card .card-info .title .add{
+    width: 40px;
+    height: 40px;
+    background: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addition .card .card-info h1{
+    font-size: 24px;
+}
+.addition .card .card-info p{
+    width: 90%;
+    font-size: 18px;
+}
+/* Footer */
+.list-link{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.list-link .list h2{
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+.list-link .list ul li{
+    list-style: none;
+    font-size: 18px;
+}
+.langues{
+    height: 8vh;
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: gray;
+}
+.langues a{
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+}
+footer .info{
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3%;
+}
+footer .info .left{
+    display: flex;
+    gap: 15px;
+}
+footer .info a{
+    text-decoration: none;
+    font-size: 18px;
+    color: gray;
+}
